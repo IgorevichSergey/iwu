@@ -1,0 +1,58 @@
+.header-container{
+    width: 100%;
+    background-color: #C6093B;
+}
+.header-container .header-logo{
+    padding-top:20px;
+    line-height: 50px;
+}
+.header-container .header-menu{
+    line-height: 50px;
+    padding-top:30px;
+    padding-bottom:20px;
+    font-family: SlateStd;
+    text-align: right;
+    font-size: 16px;
+    color:white;
+}
+.header-container .header-menu .header-menu-element{
+    padding:10px 15px 5px;
+
+}
+.header-container .header-menu .header-menu-element:last-child{
+    border:1px solid white;
+    border-radius: 3px;
+}
+.header-container .email{
+    font-family: SlateStd_Light;
+    font-size:14px;
+    margin-top: -25px;
+    padding-bottom: 5px;
+    text-align: right;
+    color:white;
+}
+.header-container .menu{
+    padding-top: 7px;
+    background-color: #9B0432;
+}
+.header-container .menu .menu-element{
+    border-right: 2px solid #C6093B;
+    margin-bottom: 5px;
+    font-family: SlateStd_Medium;
+    text-align: center;
+    font-size:14px;
+    color:white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.header-container .menu .menu-element.last-menu-element{
+    border:none;
+}
+.header-container .menu .menu-element div{
+    margin-top:2px;
+}
+@media screen and (max-width:768px){
+    .header-container .menu .menu-element{
+        border:none;
+    }
+}

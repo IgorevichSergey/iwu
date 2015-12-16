@@ -1,0 +1,11 @@
+.base-content{
+    background-color: white;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 20px;
+}
+@media screen and (max-width:768px){
+    .base-content-container .container:first-child{
+        padding:0;
+    }
+}

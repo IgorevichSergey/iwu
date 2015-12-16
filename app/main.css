@@ -1,0 +1,114 @@
+@font-face {
+    font-family: KlinicSlabBoldIt;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabBoldIt.otf);
+}
+@font-face {
+    font-family: KlinicSlabBold;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabBold.otf);
+}
+@font-face {
+    font-family: KlinicSlabBook;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabBook.otf);
+}
+@font-face {
+    font-family: KlinicSlabBookIt;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabBookIt.otf);
+}
+@font-face {
+    font-family: KlinicSlabLight;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabLight.otf);
+}
+@font-face {
+    font-family: KlinicSlabLightIt;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabLightIt.otf);
+}
+@font-face {
+    font-family: KlinicSlabMedium;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabMedium.otf);
+}
+@font-face {
+    font-family: KlinicSlabMediumIt;
+    src: url(../fonts/Klinic_Commercial/KlinicSlabMediumIt.otf);
+}
+@font-face {
+    font-family: SlateStd;
+    src: url(../fonts/SLATE_OpenType/SlateStd.otf);
+}
+@font-face {
+    font-family: SlateStd_Bk;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Bk.otf);
+}
+@font-face {
+    font-family: SlateStd_BkCondensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BkCondensed.otf);
+}
+@font-face {
+    font-family: SlateStd_BkItalic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BkItalic.otf);
+}
+@font-face {
+    font-family: SlateStd_Black;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Black.otf);
+}
+@font-face {
+    font-family: SlateStd_BlackCondensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BlackCondensed.otf);
+}
+@font-face {
+    font-family: SlateStd_BlackItalic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BlackItalic.otf);
+}
+@font-face {
+    font-family: SlateStd_Bold;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Bold.otf);
+}
+@font-face {
+    font-family: SlateStd_BoldCondensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BoldCondensed.otf);
+}
+@font-face {
+    font-family: SlateStd_BoldItalic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-BoldItalic.otf);
+}
+@font-face {
+    font-family: SlateStd_Condensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Condensed.otf);
+}
+@font-face {
+    font-family: SlateStd_Italic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Italic.otf);
+}
+@font-face {
+    font-family: SlateStd_Light;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Light.otf);
+}
+@font-face {
+    font-family: SlateStd_LightCondensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-LightCondensed.otf);
+}
+@font-face {
+    font-family: SlateStd_LightItalic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-LightItalic.otf);
+}
+@font-face {
+    font-family: SlateStd_Medium;
+    src: url(../fonts/SLATE_OpenType/SlateStd-Medium.otf);
+}
+@font-face {
+    font-family: SlateStd_MediumCondensed;
+    src: url(../fonts/SLATE_OpenType/SlateStd-MediumCondensed.otf);
+}
+@font-face {
+    font-family: SlateStd_MediumItalic;
+    src: url(../fonts/SLATE_OpenType/SlateStd-MediumItalic.otf);
+}
+body{
+    background-color: #414042;
+}
+.float-cleaner{
+    clear: both;
+}
+
+
+
+

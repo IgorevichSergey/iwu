@@ -1,0 +1,37 @@
+.footer-container{
+    background-color: #6D6E71;
+}
+.footer-container .footer-logo{
+    text-align: center;
+    line-height: 105px;
+}
+.footer-container .footer-menu{
+    padding-top:25px;
+    padding-bottom: 20px;
+}
+.footer-container .footer-menu .footer-menu-element{
+    font-family: SlateStd_Light;
+    color:white;
+    font-size: 14px;
+}
+.footer-container .copyright{
+    width:90%;
+    border-top: 1px solid white;
+    margin: 0 auto;
+    font-family: SlateStd_Light;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:768px){
+    .footer .container{
+       padding: 0;
+    }
+    .footer .row{
+        margin:0;
+    }
+    .footer-container .copyright{
+        width:96%;
+    }
+}

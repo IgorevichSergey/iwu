@@ -1,0 +1,23 @@
+.content-bottom-directive{
+    padding:20px;
+    margin-left:0.5%;
+}
+.content-bottom-directive .content-bottom-element{
+    width:33%;
+    float:left;
+    padding:15px 15px 0 15px;
+}
+.content-bottom-directive .content-bottom-element img{
+    width:100%;
+}
+.content-bottom-directive .content-bottom-element .content-bottom-element-description{
+    font-family: SlateStd_Medium;
+    color:#58595B;
+    font-size:19px;
+    margin-top:5px;
+}
+.content-bottom-directive .content-bottom-element:nth-child(2n){
+    /*width:34%;*/
+    border-right:1px solid #696969;
+    border-left:1px solid #696969;
+}
