@@ -17,7 +17,14 @@
     margin-top:5px;
 }
 .content-bottom-directive .content-bottom-element:nth-child(2n){
-    /*width:34%;*/
     border-right:1px solid #696969;
     border-left:1px solid #696969;
+}
+@media screen and (max-width:768px){
+    .content-bottom-directive .content-bottom-element{
+        width:100%;
+    }
+    .content-bottom-directive .content-bottom-element:nth-child(2n){
+        border:none;
+    }
 }
