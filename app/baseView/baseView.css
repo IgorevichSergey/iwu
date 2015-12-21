@@ -1,8 +1,59 @@
 .base-content{
     background-color: white;
-    margin-top:20px;
-    margin-bottom:20px;
+    padding: 0 20px 20px 20px;
+}
+.top-white-line{
+    padding-bottom: 20px;
+    background: white;
+}
+.user-info-line-container{
+    padding:0 20px;
+    background-color: white;
+}
+.base-view .user-info-line{
+    background-color: #E6E7E8;
+    padding: 20px 20px 10px 20px;
+
+}
+.base-view .user-info-bottom-line{
+   
+    padding:1px 20px 30px;
+    background-color: #E6E7E8;
+}
+.base-view .user-info-bottom-line hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 2px solid grey;
+}
+.base-view .user-info-line .user-name,
+.base-view .user-info-line .user-id,
+.base-view .user-info-line .user-email{
+    padding: 8px 15px 5px;
+    font-size: 17px;
+    border-right: 2px solid grey;
+}
+.base-view .user-info-line .user-name{
+    color:black;
+    font-family: KlinicSlabBold;
+}
+.base-view .user-info-line .user-id,
+.base-view .user-info-line .user-email{
+    font-family: SlateStd_Light;
+}
+.base-view .user-info-line .user-name{
+    padding-left:10px;
+}
+.base-view .user-info-line .user-email{
+    border:none;
+}
+.sell-block {
     padding: 20px;
+    background: white;
+}
+.sell-block hr{
+    border-color: #696969;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 @media screen and (max-width:768px){
     .base-content-container .container:first-child{

@@ -1,34 +1,8 @@
 .welcome-page-container{
     background-color: #E6E7E8;
-    padding:20px;
-}
-.welcome-page-container .welcome-page-top{
-    padding-bottom: 10px;
-    border-bottom: 2px solid grey;
-}
-.welcome-page-container .welcome-page-top .user-name,
-.welcome-page-container .welcome-page-top .user-id,
-.welcome-page-container .welcome-page-top .user-email{
-    padding: 8px 15px 5px;
-    font-size: 17px;
-    border-right: 2px solid grey;
-}
-.welcome-page-container .welcome-page-top .user-name{
-    color:black;
-    font-family: KlinicSlabBold;
-}
-.welcome-page-container .welcome-page-top .user-id,
-.welcome-page-container .welcome-page-top .user-email{
-    font-family: SlateStd_Light;
-}
-.welcome-page-container .welcome-page-top .user-name{
-    padding-left:10px;
-}
-.welcome-page-container .welcome-page-top .user-email{
-    border:none;
 }
 .welcome-page-container .welcome-middle{
-    margin-top:10px;
+
 }
 .welcome-page-container .welcome-middle .block-item{
     width:33%;
@@ -111,16 +85,8 @@
 .welcome-page-container .settings-block .settings-block-footer .settings-button.disabled{
     background-color: grey;
 }
-.welcome-page-container .settings-block .settings-block-footer .settings-button.enabled{
+.welcome-page-container .settings-block .settings-block-footer .settings-button.enabled {
     background-color: #4ba500;
-}
-.welcome-bottom {
-    margin-top:20px;
-}
-.welcome-bottom hr{
-    border-color: #696969;
-    margin-top:10px;
-    margin-bottom:10px;
 }
 @media screen and (max-width:768px){
     .welcome-page-container .welcome-middle .block-item{

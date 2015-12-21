@@ -2,8 +2,26 @@
     <header-directive></header-directive>
     <div class="base-content-container">
         <div class="container">
+            <div class="top-white-line"></div>
+            <div class="user-info-line-container">
+                <div class="user-info-line">
+                    <span class="user-name">Welcome, Jane Doe</span>
+                    <span class="user-id">ID: 123456</span>
+                    <span class="user-email">name@school.com</span>
+                </div>
+                <div class="user-info-bottom-line">
+                    <hr>
+                </div>
+            </div>
+
             <div ui-view="content" class="base-content"></div>
+            <div class="sell-block">
+                <hr>
+                <hr>
+                <content-bottom-directive></content-bottom-directive>
+            </div>
         </div>
+
     </div>
 
     <footer-directive></footer-directive>

@@ -1,6 +1,7 @@
 .header-container{
     width: 100%;
     background-color: #C6093B;
+    margin-bottom: 20px;
 }
 .header-container .header-logo{
     padding-top:20px;
