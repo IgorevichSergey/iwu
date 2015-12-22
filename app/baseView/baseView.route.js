@@ -1,7 +1,8 @@
 angular.module('baseView.route', [
     'header.directive',
     'footer.directive',
-    'welcomePage.route'
+    'welcomePage.route',
+    'pastTransactionPage.route'
 ])
     .config(function($stateProvider) {
         $stateProvider

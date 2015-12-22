@@ -45,12 +45,15 @@
     color:white;
     overflow: hidden;
     white-space: nowrap;
+    cursor: pointer;
 }
 .header-container .menu .menu-element.last-menu-element{
     border:none;
 }
-.header-container .menu .menu-element div{
+.header-container .menu .menu-element a{
     margin-top:2px;
+    text-decoration: none;
+    color:white;
 }
 @media screen and (max-width:768px){
     .header-container .menu .menu-element{

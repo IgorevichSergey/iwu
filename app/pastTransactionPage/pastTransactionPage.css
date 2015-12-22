@@ -1,0 +1,128 @@
+.past-transaction-container{
+    background-color: #E6E7E8;
+    padding:0 20px 20px 20px;
+}
+.past-transaction-container .past-transaction-block{
+    background-color: white;
+}
+.past-transaction-container .past-transaction-table{
+    overflow: hidden;
+}
+.past-transaction-container .past-transaction-table .past-transaction-header{
+    border-bottom: 1px solid grey;
+}
+.past-transaction-container .past-transaction-table .past-transaction-header .row{
+    padding:10px 0;
+}
+.past-transaction-container .past-transaction-table .past-transaction-header-element{
+    font-family: KlinicSlabBold;
+    font-size: 14px;
+    color:#414042;
+}
+.past-transaction-container .past-transaction-table .past-transaction-header-element:first-child{
+    padding-left:40px;
+}
+.past-transaction-container .past-transaction-table .row{
+    border-bottom:1px solid grey;
+    margin-top:10px;
+}
+.past-transaction-container .past-transaction-table .row:last-child{
+    border-bottom:none;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content{
+    font-family: SlateStd;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .past-transaction-content-element:first-child{
+    padding-left:40px;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .past-transaction-date{
+    font-family: SlateStd_Medium;
+    font-size: 13px;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .past-transaction-order{
+    font-family: SlateStd_Light;
+    font-size: 13px;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .past-transaction-status{
+     font-family: SlateStd_Medium;
+    font-size: 13px;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .past-transaction-total-price{
+    font-family: SlateStd_Light;
+    font-size: 13px;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .success-status{
+    color: #4ba500;
+    font-family: SlateStd_Medium!important;
+}
+.past-transaction-container .past-transaction-table .past-transaction-content .error-status{
+    color: #990F17;
+    font-family: SlateStd_Medium!important;
+}
+.past-transaction-container .past-transaction-table .row .visible-block{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block{
+    width: 75%;
+    background-color: #E6E7E8;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line{
+    padding-top: 5px;
+
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row{
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid grey;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row:first-child{
+    border-top: none;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row div:first-child{
+    padding-left: 0;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-name{
+    font-family: SlateStd_Medium;
+    font-size: 12px;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-value{
+    font-family: SlateStd_Light;
+    font-size: 12px;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-details{
+    font-size:10px;
+    position: relative;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-details-text{
+    cursor: pointer;
+    color:blue;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-details-text:hover{
+    text-decoration: underline
+}
+
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-details .hidden-details{
+    display: none;
+    position: absolute;
+    z-index: 22222;
+    left: 40px;
+    bottom: 0px;
+    background: rgb(165, 163, 168);
+    padding: 5px;
+    box-shadow: 1px 1px 10px grey;
+}
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line-row .field-details:hover .hidden-details{
+    display: block;
+}
+/*.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line:first-child{*/
+    /*padding-top: 0;*/
+/*}*/
+.past-transaction-container .past-transaction-table .row .hidden-block .hidden-block-line:last-child{
+    border-bottom:none;
+}

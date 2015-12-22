@@ -1,0 +1,51 @@
+<div class="past-transaction-container">
+    <div class="past-transaction-block">
+        <div class="past-transaction-table">
+            <div class="past-transaction-header">
+               <div class="row">
+                   <div class="col-xs-3 past-transaction-header-element">DATE:</div>
+                   <div class="col-xs-3 past-transaction-header-element">ORDER#:</div>
+                   <div class="col-xs-3 past-transaction-header-element">TYPE / STATUS:</div>
+                   <div class="col-xs-3 past-transaction-header-element">TOTAL PRICE:</div>
+               </div>
+            </div>
+            <div class="past-transaction-content">
+                <div ng-repeat="transaction in pastTransactionPageCtrl.example_config" class="row">
+                    <div ng-click="hidden_block = !hidden_block" class="visible-block">
+                        <div class="col-xs-3 past-transaction-content-element past-transaction-date">{{transaction.date}}</div>
+                        <div class="col-xs-3 past-transaction-content-element past-transaction-order">{{transaction.order}}</div>
+                        <div class="col-xs-3 past-transaction-content-element past-transaction-status success-status">{{transaction.status}}</div>
+                        <div class="col-xs-3 past-transaction-content-element past-transaction-total-price">{{transaction.total_price}}</div>
+                        <div class="float-cleaner"></div>
+                    </div>
+
+                    <div ng-show="hidden_block" class="hidden-block">
+                        <div  class="hidden-block-line">
+                            <div ng-repeat="detail in transaction.details" class="col-xs-12 hidden-block-line-row">
+                                <div class="col-xs-3">
+                                    <span class="field-name">Title:</span>
+                                    <span class="field-value">{{detail.title}}</span>
+
+                                </div>
+                                <div class="col-xs-3">
+                                    <span class="field-name">Rental-Used:</span>
+                                    <span class="field-value">{{detail.rental_Used}}</span>
+                                </div>
+                                <div class="col-xs-3">
+                                    <span class="field-name">Status:</span>
+                                    <span class="field-value error-status">{{detail.status}}</span>
+                                    <span ng-if="detail.status_details.text" class="field-details">(<span class="field-details-text">details</span>)<div class="hidden-details">{{detail.status_details.text}}</span></span>
+                                </div>
+                            </div>
+                            <div class="float-cleaner"></div>
+                        </div>
+                        <div class="float-cleaner"></div>
+                    </div>
+                    <div class="float-cleaner"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

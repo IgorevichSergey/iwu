@@ -13,6 +13,8 @@ var config = {
         "./app/baseView/baseView.route.js",
         "./app/welcomePage/welcomePage.route.js",
         "./app/welcomePage/welcomePage.ctrl.js",
+        "./app/pastTransactionPage/pastTransactionPage.route.js",
+        "./app/pastTransactionPage/pastTransactionPage.ctrl.js",
         "./app/main.js"
     ],
     BOWER_SCRIPTS: [
